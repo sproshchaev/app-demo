@@ -1,1 +1,1 @@
-# app-demo
+# app-demo (Java 21)
