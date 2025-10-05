@@ -1,14 +1,16 @@
 package com.prosoft;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
- * AppDemo (v.1.0)
+ * AppDemo (v.2.0) spring-boot-starter-web
  */
+@SpringBootApplication
 public class AppDemo {
 
     public static void main(String[] args) {
-
-        System.out.println("Hello World!");
-
+        SpringApplication.run(AppDemo.class, args);
     }
 
 }
