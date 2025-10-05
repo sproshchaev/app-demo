@@ -19,7 +19,7 @@ curl http://localhost:8080/api/persons/1
 
 4. PUT /api/persons/1 — обновить по id
 ```bash
-curl -X PUT http://localhost:8080/api/persons/1 -H "Content-Type: application/json" -d '{"name":"Петр","age":25}'
+curl -X PUT http://localhost:8080/api/persons/1 -H "Content-Type: application/json" -d '{"name":"John Smith","age":25}'
 ```
 
 5. DELETE /api/persons/1 — удалить по id
@@ -45,7 +45,7 @@ irm "http://localhost:8080/api/persons/1"
 
 4. PUT /api/persons/1 — обновить по id
 ```bash
-irm -Uri "http://localhost:8080/api/persons/1" -Method Put -Headers @{"Content-Type"="application/json"} -Body '{"name":"Петр","age":25}'
+irm -Uri "http://localhost:8080/api/persons/1" -Method Put -Headers @{"Content-Type"="application/json"} -Body '{"name":"John Smith","age":25}'
 ```
 
 5. DELETE /api/persons/1 — удалить по id
