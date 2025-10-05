@@ -1,7 +1,7 @@
 package com.prosoft;
 
 /**
- * AppDemo (v.1.0)
+ * AppDemo (v.1.0 Java 21)
  */
 public class AppDemo {
 
